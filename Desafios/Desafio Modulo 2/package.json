@@ -12,10 +12,14 @@
     "webpack-cli": "^3.3.11"
   },
   "dependencies": {
-    "webpack-dev-server": "^3.10.3"
+    "webpack-dev-server": "^3.11.0",
+    "snyk": "^1.360.0"
   },
   "scripts": {
     "dev": "webpack-dev-server --mode=development",
-    "build": "webpack --mode=production"
-  }
+    "build": "webpack --mode=production",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
+  },
+  "snyk": true
 }
