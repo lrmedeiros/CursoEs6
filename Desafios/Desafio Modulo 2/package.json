@@ -12,7 +12,7 @@
     "webpack-cli": "^3.3.11"
   },
   "dependencies": {
-    "webpack-dev-server": "^3.11.0",
+    "webpack-dev-server": "^5.1.0",
     "snyk": "^1.360.0"
   },
   "scripts": {
